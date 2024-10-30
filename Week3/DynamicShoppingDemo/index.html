@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping List Example</title>
+<<<<<<< HEAD
     
+=======
+    <link rel="stylesheet" href="styles.css">
+>>>>>>> upstream/main
   </head>
   <body>
     <div class="container">
@@ -21,6 +25,7 @@
 
     <script>
 
+<<<<<<< HEAD
       let shoppingList = JSON.parse(localStorage.getItem("shoppingList"))
       console.log(shoppingList)
 
@@ -46,6 +51,8 @@
         input.focus();
       }
 
+=======
+>>>>>>> upstream/main
       //conveniently done for you!
       function addItem(text) {
         //grab the list
@@ -64,6 +71,7 @@
         li.appendChild(span);
         li.appendChild(deleteButton);
         li.appendChild(saveButton);
+<<<<<<< HEAD
 
         deleteButton.addEventListener("click", () => {
           list.removeChild(li)
@@ -79,6 +87,8 @@
 
           localStorage.setItem("shoppingList", JSON.stringify(shoppingList))
         })
+=======
+>>>>>>> upstream/main
         
       }
 

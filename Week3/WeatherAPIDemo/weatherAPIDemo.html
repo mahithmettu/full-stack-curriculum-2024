@@ -12,18 +12,27 @@
 		<h4 id='lat'></h4>
 		<h4 id='lon'></h4>
 		<h4 id='temp'></h4>
+<<<<<<< HEAD
 		<button id='getTemp' onclick="getData()">Get Temp Jaco CR</button>
+=======
+		<button id='getTemp' onclick="getData()">Get Temperature for Austin, TX</button>
+>>>>>>> upstream/main
 	</div>
 </body>
 
 <script>
+<<<<<<< HEAD
 		const apiKey = "0c558f1968b8b011e63c580ec4202527";
+=======
+		const apiKey = "";
+>>>>>>> upstream/main
 
 		let temp;
 		let lat;
 		let lon;
 
 		function getData() {
+<<<<<<< HEAD
 			let apiCall = `http://api.openweathermap.org/geo/1.0/direct?q=Austin,TX,USA&limit=5&appid=6dc87f0d902ad7e89bffc74e3ba537ef=${apiKey}`;
 			// get lat and long
 			fetch(apiCall)
@@ -42,10 +51,15 @@
 
 				})
 
+=======
+			let apiCall = ``;
+			// get lat and long
+>>>>>>> upstream/main
 			// get temp
 		}
 
 		function renderLatLon() {
+<<<<<<< HEAD
 			document.querySelector("#lat").innerHTML = "Latitude: " + lat
 			document.querySelector("#lon").innerHTML = "Longitude: " + lon
 		}
@@ -59,11 +73,21 @@
 
 					temp = data.main.temp;
 				})
+=======
+		}
+
+		function getTemp() {
+			
+>>>>>>> upstream/main
 		}
 
         
 		function renderTemp() {
+<<<<<<< HEAD
 			document.querySelector("#temp").innerHTML = "Temperature: " + temp
+=======
+		
+>>>>>>> upstream/main
 		}
 	</script>
 </html>
