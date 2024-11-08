@@ -14,6 +14,7 @@ function PokemonCard(props) {
 
   return (
     <Card sx={{ margin: 1 }}>
+<<<<<<< HEAD
       <CardActionArea component={Link} to ={`${pokemonName}`}>
         <CardMedia component="img" height="120" image={imageUrl}>
           <CardContent>
@@ -23,6 +24,8 @@ function PokemonCard(props) {
           </CardContent>
         </CardMedia>
       </CardActionArea>
+=======
+>>>>>>> upstream/main
 
     </Card>
   );

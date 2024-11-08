@@ -16,7 +16,10 @@ function LoginPage() {
 
   // TODO: Extract login function and error from our authentication context.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
   // State to hold the username and password entered by the user.
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -26,7 +29,10 @@ function LoginPage() {
     
   };
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
   return (
     <Container component="main" maxWidth="xs">
       <Box
@@ -42,7 +48,11 @@ function LoginPage() {
           sx={{
             marginBottom: 2,
             height: 200,
+<<<<<<< HEAD
             width: 200, 
+=======
+            width: 200,
+>>>>>>> upstream/main
           }}
           alt="UT Longhorn"
           src="/longhorn.jpg"

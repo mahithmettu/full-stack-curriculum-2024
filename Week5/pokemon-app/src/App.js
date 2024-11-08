@@ -4,8 +4,11 @@ import { ThemeProvider } from '@mui/material/styles';
 import { ThemeContext } from './context/ThemeContext';
 import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
 import { WbSunny, NightsStay } from '@mui/icons-material';
+<<<<<<< HEAD
 import PokemonList from './components/PokemonList.js'
 import PokemonDetail from './components/PokemonList.js'
+=======
+>>>>>>> upstream/main
 
 function App() {
 
@@ -13,6 +16,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+<<<<<<< HEAD
       <AppBar>
         <Toolbar>
           <Typography variant = 'h6' sx={{ flexGrow : 1}}>
@@ -27,6 +31,9 @@ function App() {
         <Route path = '/' element={PokemonList}/>
         <Route path = '/:name' element={PokemonDetail}/>
       </Routes>
+=======
+      Hello World!
+>>>>>>> upstream/main
     </ThemeProvider>
   );
 }

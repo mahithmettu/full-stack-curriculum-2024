@@ -5,6 +5,7 @@ import { Typography } from "@mui/material";
 
 function PokemonDetail() {
 
+<<<<<<< HEAD
   const{name} = useParams()
   const [pokemon, setPokemon] = useState(null)
 
@@ -19,6 +20,8 @@ useEffect(() => {
   fetchPokemonDetail()
 }, [])
 
+=======
+>>>>>>> upstream/main
 
   const imageUrl = 'https://placehold.co/400'
 
@@ -26,7 +29,11 @@ useEffect(() => {
     <div
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
+<<<<<<< HEAD
       <img src = >
+=======
+      Pokemon Detail
+>>>>>>> upstream/main
     </div>
   );
 }
